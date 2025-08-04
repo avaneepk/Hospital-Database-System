@@ -43,3 +43,24 @@ Run Hospital project.py to run the project
 
 - Create indexes for better performance
 
+# Database instructions and model
+
+All the databases can be accessed by choosing their respective menu options in the main menu. Every
+database has an option to view the table values as records. The reason to create the python
+interface was to ensure that most of the areas of the database can be easily accessed, and
+also because the project itself took much less effort to make without it.
+
+At the beginning, a patient record is either created using INSERT into the patient table or
+using the pre-existing records can be used, after which the appointment is created using the
+patient’s ID and choosing a doctor from a pre-existing record. Then, after the appointment
+is made, the treatment records are created using INSERT into treatment table. The
+medication records are created at any time after the patient record.
+
+Almost all values can be edited, except for the department and doctor information, ID
+numbers, and names.
+
+Records can also be deleted, by entering ID numbers.
+
+All important queries are marked with comments in their designated function constructors.
+
+![alt text](<Hospital (1).jpg>)
